@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@theme {
+  --color-mic-primary: #da241e;
+  --color-mic-primary-soft: #d5616d;
+  --color-mic-slate: #465469;
+  --color-mic-cloud: #eef2f7;
+  --color-mic-ink: #17202c;
+  --color-mic-accent: #2d5f9a;
+  --color-mic-line: #d9e1ea;
+}
+
+@layer base {
+  * {
+    @apply border-mic-line;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-white font-sans text-mic-ink antialiased;
+    background-image: radial-gradient(
+      circle at top left,
+      rgba(45, 95, 154, 0.08),
+      transparent 28%
+    );
+  }
+}
+
+@layer components {
+  .shell {
+    @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+
+  .top-gradient {
+    @apply hidden lg:block;
+    background: linear-gradient(90deg, #02060d 0%, #08101d 50%, #02060d 100%);
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center rounded-full bg-mic-primary px-6 py-3 text-sm font-semibold text-white transition hover:bg-mic-primary-soft;
+  }
+
+  .eyebrow {
+    @apply inline-flex items-center rounded-full border border-mic-accent/15 bg-mic-accent/8 px-3 py-1 text-xs font-semibold uppercase tracking-[0.24em] text-mic-accent;
+  }
+
+  .banner-shadow {
+    @apply inset-0 bg-linear-to-r from-[#050B14] via-[#050B14]/95 to-transparent;
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "heroSubtitle": "MIC India develops and manufactures discrete semiconductor devices for industrial, lighting, mobility, and power conversion markets, combining disciplined process control with customer-focused technical support.",
+  "overview": "MIC India is positioned as a dependable semiconductor manufacturing partner delivering discrete power and optoelectronic devices for global OEM, EMS, and industrial supply chains. Our operating model emphasizes process capability, incoming quality discipline, and fast commercial responsiveness for programs where consistency matters.",
+  "companyOverview": "With a growing portfolio spanning rectifier diodes, Schottky devices, bridge rectifiers, LEDs, and transistors, MIC India serves customers that value predictable electrical performance, efficient sourcing, and manufacturing accountability. The company approach is rooted in engineering practicality, detailed quality documentation, and customer relationships built around long-term supply continuity.",
+  "vision": "To become the preferred Indian semiconductor manufacturing brand for high-reliability discrete devices serving industrial and global electronics programs.",
+  "mission": "To deliver dependable semiconductor solutions through disciplined manufacturing, application-driven engineering support, and responsive customer partnership.",
+  "stats": [
+    { "label": "Years of Manufacturing Focus", "value": "20+" },
+    { "label": "Qualified Product Families", "value": "150+" },
+    { "label": "Annual Device Output", "value": "120M+" }
+  ],
+  "capabilities": [
+    {
+      "title": "Assembly & Packaging",
+      "description": "Controlled molding, lead finish, marking, and package integrity processes supporting discrete semiconductor production."
+    },
+    {
+      "title": "Electrical Test Systems",
+      "description": "Inline and final electrical verification with traceable records for key performance parameters and outgoing quality gates."
+    },
+    {
+      "title": "Reliability Validation",
+      "description": "Structured qualification using thermal, surge, and life tests aligned to customer approval and ongoing quality monitoring."
+    },
+    {
+      "title": "Supply Chain Readiness",
+      "description": "Production planning and lot control designed to support recurring schedules, private labeling, and export-oriented fulfillment."
+    }
+  ],
+  "certifications": [
+    {
+      "name": "ISO 9001:2015",
+      "description": "Quality management processes documented to support consistent product realization, traceability, and continuous improvement."
+    },
+    {
+      "name": "RoHS Compliance",
+      "description": "Material declaration and finish control aligned with global restricted substance expectations for mainstream electronics programs."
+    },
+    {
+      "name": "In-House Reliability Screening",
+      "description": "Qualification and sample-based monitoring for surge, thermal, and endurance behavior before lot release."
+    },
+    {
+      "name": "Customer Audit Support",
+      "description": "Prepared process documentation, product records, and manufacturing walkthrough capability for enterprise qualification reviews."
+    }
+  ],
+  "differentiators": [
+    {
+      "title": "Manufacturing Discipline",
+      "description": "Process checkpoints, controlled inspection plans, and electrical test coverage reduce variability and strengthen customer confidence."
+    },
+    {
+      "title": "Responsive Engineering",
+      "description": "We help customers align device selection, qualification strategy, and packaging preferences with practical application needs."
+    },
+    {
+      "title": "Commercial Agility",
+      "description": "From fast RFQ turnaround to customized supply planning, MIC India is structured to move quickly without sacrificing rigor."
+    },
+    {
+      "title": "Industrial Focus",
+      "description": "The product roadmap and service model prioritize power electronics, controls, lighting, and rugged-use electronics markets."
+    }
+  ],
+  "whyChooseUs": [
+    {
+      "title": "Consistent Electrical Performance",
+      "description": "Lot-level control and outgoing inspection help sustain predictable device behavior in production deployments."
+    },
+    {
+      "title": "Application-Oriented Portfolio",
+      "description": "The catalog is built around real industrial use cases, making device navigation clearer for design and sourcing teams."
+    },
+    {
+      "title": "Scalable Production Support",
+      "description": "We are prepared for pilot volumes, ongoing replenishment schedules, and enterprise sourcing transitions."
+    },
+    {
+      "title": "Customer-Ready Documentation",
+      "description": "Datasheets, qualification responses, and compliance records are organized for faster approval and onboarding."
+    }
+  ],
+  "manufacturingExcellence": [
+    "Our manufacturing model combines incoming wafer and component control, monitored assembly conditions, and standardized outgoing electrical verification to keep production stable across volume ramps.",
+    "Dedicated process reviews, line qualification practices, and defined escalation paths support customers operating under audit, compliance, and field reliability expectations.",
+    "By pairing disciplined manufacturing execution with practical customer communication, MIC India helps reduce friction between procurement, quality, and engineering stakeholders."
+  ],
+  "qualityPolicy": [
+    "Quality at MIC India begins with prevention. We focus on process control, lot traceability, documented inspection, and structured root-cause analysis when variation appears.",
+    "We are committed to meeting agreed specifications, improving manufacturing capability, and supporting our customers with dependable communication throughout the supply relationship.",
+    "Continuous improvement is embedded into the organization through line reviews, data-backed corrective actions, and regular quality objective tracking."
+  ],
+  "infrastructureGallery": [
+    {
+      "title": "Package Assembly Line",
+      "description": "Automated and semi-automated process cells aligned for output stability and repeatable mechanical quality.",
+      "image": "/images/facility-pack.svg"
+    },
+    {
+      "title": "Electrical Test Cell",
+      "description": "Measurement and screening environment configured for device verification and outgoing quality release.",
+      "image": "/images/facility-test.svg"
+    },
+    {
+      "title": "Reliability Lab",
+      "description": "Internal validation support for surge, thermal, and endurance qualification workflows.",
+      "image": "/images/rectifier-lab.svg"
+    },
+    {
+      "title": "Power Application Bench",
+      "description": "Application-oriented setup used for product demonstrations, engineering checks, and customer correlation exercises.",
+      "image": "/images/power-line.svg"
+    }
+  ],
+  "contact": {
+    "address": "MIC India Semiconductor Pvt. Ltd., Plot 42, Electronic Manufacturing Zone, Hosur Road Corridor, Bengaluru, Karnataka 560099, India",
+    "email": "sales@micindia-semiconductor.com",
+    "phone": "+91 80 4567 2100",
+    "phoneRaw": "+918045672100"
+  }
+}
