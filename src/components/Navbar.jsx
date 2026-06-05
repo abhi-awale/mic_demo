@@ -49,14 +49,13 @@ function Navbar() {
         <div className="shell">
           <div className="flex h-18 items-center justify-between gap-4 py-3">
             <Link
-              className="flex items-center gap-3"
               to="/"
               onClick={closeMenu}
             >
               <img
                 src="https://micindia.com/assets/img/logo.png"
                 alt="MIC India"
-                className="h-24 p-2"
+                className="h-20 p-2"
               />
             </Link>
 
