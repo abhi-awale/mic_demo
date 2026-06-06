@@ -25,7 +25,7 @@ function HeroBanner() {
               Master Instrument Corporation (MIC) is a pioneer and world leader
               in the production of Diodes, Bridge Rectifiers and LEDs. Since
               1988, MIC has consistently delivered world-class quality products
-              and exceptional customer experience across global markets.
+              and exceptional customer experience across Indian markets.
             </p>
             <div className="mt-10 flex flex-wrap gap-4">
               <Link
@@ -64,7 +64,7 @@ function HeroBanner() {
                     </div>
                     <div>
                         <h3 className="text-3xl font-bold text-white">
-                            Global
+                            All Over India
                         </h3>
 
                         <p className="mt-2 text-sm text-slate-400">
