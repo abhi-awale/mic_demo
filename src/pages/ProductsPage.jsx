@@ -569,8 +569,8 @@ export default function ProductsPage() {
                   key={product.id}
                   className="rounded-lg border bg-white p-4"
                 >
-                  <div className="h-28 rounded bg-gray-100" >
-                    <img src="https://images.unsplash.com/photo-1640955785023-1854685dae05?q=80&w=1973&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"/>
+                  <div className="h-28 overflow-hidden rounded bg-gray-100" >
+                    <img className="h-full w-full object-cover" src="https://images.unsplash.com/photo-1640955785023-1854685dae05?q=80&w=1973&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"/>
                   </div>
                   <h3 className="mt-8 text-xl font-semibold">
                     {product.name}
