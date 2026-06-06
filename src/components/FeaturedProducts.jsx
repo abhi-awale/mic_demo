@@ -1,5 +1,6 @@
 import React from "react";
 import { ArrowRight } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export default function FeaturedProducts() {
   const products = [
@@ -75,10 +76,10 @@ export default function FeaturedProducts() {
 
         {/* View All */}
         <div className="mt-12 text-center">
-          <button className="inline-flex items-center gap-2 rounded-md bg-[#d92525] px-6 py-3 font-medium text-white transition hover:bg-red-700">
+          <Link to="/products" className="inline-flex items-center gap-2 rounded-md bg-[#d92525] px-6 py-3 font-medium text-white transition hover:bg-red-700">
             View All Products
             <ArrowRight size={18} />
-          </button>
+          </Link>
         </div>
       </div>
     </section>

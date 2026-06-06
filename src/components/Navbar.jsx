@@ -44,7 +44,7 @@ function Navbar() {
         </div>
       </div>
 
-      <header className="sticky top-0 border-b border-mic-line/70 bg-white/90 backdrop-blur-xl z-10">
+      <header className="sticky top-0 border-b border-mic-line/70 bg-white/90 backdrop-blur-xl z-50">
         <div className="shell">
           <div className="flex h-18 items-center justify-between gap-4 py-3">
             <Link

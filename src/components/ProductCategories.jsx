@@ -44,7 +44,6 @@ function ProductCategories() {
 
   return (
     <section className="bg-white py-16 lg:py-20">
-      <Link to = "/products" >
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="relative mb-12 flex items-center justify-center">
             <div className="text-center">
@@ -86,12 +85,12 @@ function ProductCategories() {
                 </p>
 
                 {/* Arrow */}
-                {/* <div className="mt-auto  pt-8">
+                <Link to="/products" className="mt-auto  pt-8">
                   <ArrowRight
                     size={18}
                     className="text-red-500 transition duration-300 group-hover:translate-x-1"
                   />
-                </div> */}
+                </Link>
               </div>
             ))}
           </div>
@@ -104,7 +103,6 @@ function ProductCategories() {
           </div>
 
         </div>
-      </Link>
     </section>
   );
 }

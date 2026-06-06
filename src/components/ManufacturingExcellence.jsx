@@ -57,7 +57,7 @@ export default function ManufacturingExcellence() {
               MIC India operates modern manufacturing facilities equipped
               with advanced production technologies and strict quality
               management systems. Our commitment to engineering excellence
-              ensures reliable semiconductor solutions for global industries.
+              ensures reliable semiconductor solutions for Indian industries.
             </p>
 
             {/* Features */}
