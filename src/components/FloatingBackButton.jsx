@@ -23,6 +23,7 @@ export default function FloatingBackButton() {
         fixed
         left-4
         top-20
+        sm:top-30
         z-50
         flex
         items-center
