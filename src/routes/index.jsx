@@ -5,6 +5,7 @@ import HomePage from "../pages/HomePage";
 import NotFoundPage from "../pages/NotFoundPage";
 import ProductsPage from "../pages/ProductsPage";
 import ProductDetailsPage from "../pages/ProductDetailsPage";
+import ProductListPage from "../pages/ProductListPage";
 
 
 export const router = createBrowserRouter([{
@@ -20,7 +21,7 @@ export const router = createBrowserRouter([{
             },
             {
                 path: 'products',
-                element : <ProductsPage />
+                element : <ProductListPage />
             },
             {
                 path: "/products/:id",
