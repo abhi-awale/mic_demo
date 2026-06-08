@@ -24,7 +24,7 @@ export default function FloatingBackButton() {
         left-4
         top-20
         sm:top-30
-        z-50
+        z-30
         flex
         items-center
         gap-2
