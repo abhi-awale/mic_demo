@@ -4,10 +4,10 @@ import {
   HeroSection,
   ProductInfoSection,
   FeatureHighlights,
-  ProductTabs,
   DownloadsSection,
 } from "../components/product-details";
 import FloatingBackButton from "../components/FloatingBackButton";
+import ProductTabs from '../components/ProductTabs/ProductTabs';
 
 export default function ProductDetailsPage() {
   const { slug } = useParams();
@@ -29,7 +29,8 @@ export default function ProductDetailsPage() {
       <HeroSection product={product} />
       <ProductInfoSection product={product} />
       <FeatureHighlights />
-      <ProductTabs product={product} />
+      {/* <ProductTabs product={product} /> */}
+      <ProductTabs product={product}/>
       <DownloadsSection />
     </div>
   );
